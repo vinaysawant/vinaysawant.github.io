@@ -1,13 +1,13 @@
- ----------------------- #
+#----------------------- #
 #      Main Configs       #
 # ----------------------- #
 
 url: http://vinaysawant.github.io
-title: Make it Simple
+title: my-hacks
 subtitle: O[n (log n)] 
 author: Vinay Sawant
 simple_search: https://www.google.com/search
-description:
+description: Simple hacks for complex things
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
