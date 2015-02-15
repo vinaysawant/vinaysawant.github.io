@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Vinay]]></title>
+  <link href="http://vinaysawant.github.io/atom.xml" rel="self"/>
+  <link href="http://vinaysawant.github.io/"/>
+  <updated>2015-02-15T11:29:47+05:30</updated>
+  <id>http://vinaysawant.github.io/</id>
+  <author>
+    <name><![CDATA[Vinay Sawant]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
