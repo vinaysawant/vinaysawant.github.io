@@ -115,7 +115,7 @@ control on such calls so I chose it.</p>
 </pre></td><td class='code'><pre><code class='php'><span class='line'><span class="nv">$data</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
 </span><span class='line'>  <span class="c1">//Data to send</span>
 </span><span class='line'><span class="p">);</span>
-</span><span class='line'><span class="nv">$call</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Curl</span><span class="p">(</span><span class="s1">&#39;https://your-server-url/users&#39;</span><span class="p">);</span>
+</span><span class='line'><span class="nv">$call</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Curl</span><span class="p">(</span><span class="s1">&#39;https://your-server-url/users&#39;</span><span class="p">,</span><span class="nv">$data</span><span class="p">);</span>
 </span><span class='line'><span class="nv">$call</span><span class="o">-&gt;</span><span class="na">post</span><span class="p">()</span>
 </span></code></pre></td></tr></table></div></figure>
 
@@ -130,7 +130,7 @@ control on such calls so I chose it.</p>
 </pre></td><td class='code'><pre><code class='php'><span class='line'><span class="nv">$data</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
 </span><span class='line'>  <span class="c1">//Data to send</span>
 </span><span class='line'><span class="p">);</span>
-</span><span class='line'><span class="nv">$call</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Curl</span><span class="p">(</span><span class="s1">&#39;https://your-server-url/users/1&#39;</span><span class="p">);</span>
+</span><span class='line'><span class="nv">$call</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Curl</span><span class="p">(</span><span class="s1">&#39;https://your-server-url/users/1&#39;</span><span class="p">,</span><span class="nv">$data</span><span class="p">);</span>
 </span><span class='line'><span class="nv">$call</span><span class="o">-&gt;</span><span class="na">put</span><span class="p">()</span>
 </span></code></pre></td></tr></table></div></figure>
 
