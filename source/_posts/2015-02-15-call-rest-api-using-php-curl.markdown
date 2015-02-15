@@ -24,7 +24,7 @@ $call->get()
 $data = array(
 	//Data to send
 );
-$call = new Curl('https://your-server-url/users');
+$call = new Curl('https://your-server-url/users',$data);
 $call->post()
 ```
 ######PUT
@@ -32,7 +32,7 @@ $call->post()
 $data = array(
 	//Data to send
 );
-$call = new Curl('https://your-server-url/users/1');
+$call = new Curl('https://your-server-url/users/1',$data);
 $call->put()
 ```
 ######DELETE
